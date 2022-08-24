@@ -51,7 +51,7 @@ int main()
         
         if (!status)
         {
-            cout << "Login Failed!" << endl;
+            cout << "Login Failed! username or password do not match " << endl;
             system("PAUSE");
             return 0;
         }
